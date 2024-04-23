@@ -2,6 +2,8 @@ const doc: ClassDecorator = (target: any) => {
   console.log(target,'此时target是构造函数');
   target.prototype.name = '成子';
 }
+
+//类装饰器
 // //写法一 装饰器
 // @doc
 // class xiaoman {
